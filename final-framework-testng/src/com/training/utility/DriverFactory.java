@@ -25,7 +25,7 @@ public class DriverFactory {
 		
 			
 		}else if(driverName.equals(DriverNames.FIREFOX)){
-			System.setProperty(Driver.FIREFOX, Driver.FIREFOX_PATH);
+			System.setProperty("webdriver.gecko.driver","C:\\Users\\AshokBellary\\Desktop\\Selenium project\\geckodriver\\geckodriver.exe");
 			driver = new FirefoxDriver();
 			
 		}else if(driverName.equals("IE")){
